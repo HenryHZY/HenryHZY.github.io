@@ -85,16 +85,21 @@
 <h3 id="publications">Publications</h3> 
     <!-- * indicates equal contribution -->
     <ul>
-        <li> (Preprint) ”Prototypical Graph Contrastive Learning” (submitted to NeurIPS 2021)
+        <li> (Preprint) "Prototypical Graph Contrastive Learning" (submitted to NeurIPS 2021)
             
             <br>Anonymous authors, <strong>Zi-Yuan Hu</strong> as the 3rd author
             <ul>
-                <!-- <li> In this paper, we have presented a novel recommendation model called Balanced Collaborative Filtering Network (BCFNet), 
-                    which combines attentive representation learning (BCFNet-rl), attentive matching function learning (BCFNet-ml) 
-                    and balance module (BCFNet-bm). </li>
-                <li> Under the balance strategy and pre-training strategy, the proposed BCFNet model can not only 
-                    alleviate the over-fitting issue caused by the high sparsity of interaction information, 
-                    but also outperforms the state-of-the-art methods.</li> -->
+                <li> Motivation: Graph contrastive learning is a promising research topic in self-supervised learning. 
+                    However, existing methods and datasets suffer from the critical sampling biasissue, leading to performance degradation.</li>
+                <li> Contribution: 
+                    We proposed a novel clustering-based framework called PGCL for unsupervised graph-level representation learning. 
+                    PGCL clusters semantically similar graphs into the same group, and simultaneously encourages the clustering consistency for different graph views. 
+                    Moreover, to mitigate the sampling bias issue, PGCL reweights its negative pairs based on the distance between their prototypes. 
+                    </li>
+                <li> Overview: 
+                    <img src="img/PGCL.png">
+
+                </li>>
                 <!-- <li>[<a href="https://arxiv.org/abs/2103.06105">paper</a>][<a href="https://github.com/beilineili/BCFNet">code</a>]</li> -->
             </ul>
         </li>
