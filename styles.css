@@ -846,7 +846,7 @@ footer {
 	max-width:100%;
 	padding-bottom:4rem
 }
-.mini-intro h1,.mini-intro p {
+.mini-intro h1,.mini-intro .img-left {
 	max-width:75%;
 	padding-right:.5rem
 }
